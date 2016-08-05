@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "多线程", "多线程", "{D930B5B6-4D17-44E7-A97F-CB1710CEB4B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threadpool多线程", "线程池\Threadpool多线程.csproj", "{C282EC63-D370-4710-80F6-9BF14BB0AFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task的多线程", "Task的多线程\Task的多线程.csproj", "{B866D4EB-A794-4399-9B75-5040925082FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwaitAndaAsync", "AwaitAndaAsync\AwaitAndaAsync.csproj", "{683370E7-75DC-4CB2-B410-D66A64CDCBD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{17DFDF96-3F9E-47A0-8F30-FEB2EC7199CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropDownListDemo", "DropDownListDemo\DropDownListDemo.csproj", "{A8D1C556-A275-4C4D-9A1C-892524642680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C282EC63-D370-4710-80F6-9BF14BB0AFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C282EC63-D370-4710-80F6-9BF14BB0AFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C282EC63-D370-4710-80F6-9BF14BB0AFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C282EC63-D370-4710-80F6-9BF14BB0AFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B866D4EB-A794-4399-9B75-5040925082FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B866D4EB-A794-4399-9B75-5040925082FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B866D4EB-A794-4399-9B75-5040925082FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B866D4EB-A794-4399-9B75-5040925082FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683370E7-75DC-4CB2-B410-D66A64CDCBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683370E7-75DC-4CB2-B410-D66A64CDCBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683370E7-75DC-4CB2-B410-D66A64CDCBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683370E7-75DC-4CB2-B410-D66A64CDCBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D1C556-A275-4C4D-9A1C-892524642680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D1C556-A275-4C4D-9A1C-892524642680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D1C556-A275-4C4D-9A1C-892524642680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D1C556-A275-4C4D-9A1C-892524642680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C282EC63-D370-4710-80F6-9BF14BB0AFB0} = {D930B5B6-4D17-44E7-A97F-CB1710CEB4B0}
+		{B866D4EB-A794-4399-9B75-5040925082FA} = {D930B5B6-4D17-44E7-A97F-CB1710CEB4B0}
+		{683370E7-75DC-4CB2-B410-D66A64CDCBD8} = {D930B5B6-4D17-44E7-A97F-CB1710CEB4B0}
+		{A8D1C556-A275-4C4D-9A1C-892524642680} = {17DFDF96-3F9E-47A0-8F30-FEB2EC7199CA}
+	EndGlobalSection
+EndGlobal

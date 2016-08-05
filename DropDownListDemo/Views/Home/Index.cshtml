@@ -1,0 +1,43 @@
+﻿@model DropDownListDemo.Models.ViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script>
+        $(function() {
+            $("#ID").change(function() {
+                var id = $("#ID").val();
+                $.ajax({
+                    url: "/Home/Get/" + id,
+                    type: "get",
+                    dataType: "json",
+                    success: function (data) {
+                        var myhtml = "<ul>";
+                        $.each(eval(data), function(i, item) {
+                            myhtml += "<li>编号：" + item.ID + "科目："+item.Name+"</li>";
+                        });
+                        myhtml += "</ul>";
+                        $("#myDiv").html(myhtml);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<div align="center">
+    @Html.DropDownListFor(s => s.ID, Model.ViewModels)
+</div>
+    <div id="myDiv">
+    </div>
+    
+</body>
+</html>
